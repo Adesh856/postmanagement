@@ -7,7 +7,7 @@ const Userschema=mongoose.Schema({
   password : {type:String,unique:true},
 age : {type:Number,unique:true},
 city : {type:String,unique:true},
-is_married : {type:Boolean,unique:true}
+is_married : Boolean
 },{
     versionKey:false
 })
